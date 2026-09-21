@@ -3,8 +3,8 @@ package matching
 import (
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
 )
 
 func TestMatchAlternateEPGChannelsUsesGuideIDThenUniqueNormalizedName(t *testing.T) {

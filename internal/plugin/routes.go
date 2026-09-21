@@ -17,15 +17,15 @@ import (
 	"sync"
 	"time"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/matching"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/dispatcharr"
-	sharedhttp "github.com/theramindex/silo-plugin-xtream-library/internal/upstream/httpclient"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/matching"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/dispatcharr"
+	sharedhttp "github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/httpclient"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 //go:embed assets/hls.min.js assets/mpegts.min.js

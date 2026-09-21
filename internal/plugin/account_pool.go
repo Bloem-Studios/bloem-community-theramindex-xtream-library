@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
 )
 
 const accountLeaseTTL = 90 * time.Second

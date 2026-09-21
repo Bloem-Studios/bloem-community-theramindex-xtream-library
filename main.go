@@ -12,14 +12,14 @@ import (
 	"strings"
 	"sync"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	publicmanifest "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/manifest"
-	sdkruntime "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/runtime"
-	"github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/runtimedefault"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/app"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	pluginimpl "github.com/theramindex/silo-plugin-xtream-library/internal/plugin"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	publicmanifest "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/manifest"
+	sdkruntime "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/runtime"
+	"github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/runtimedefault"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/app"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	pluginimpl "github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/plugin"
 )
 
 //go:embed manifest.json

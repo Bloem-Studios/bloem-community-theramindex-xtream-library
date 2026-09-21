@@ -14,7 +14,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	sharedhttp "github.com/theramindex/silo-plugin-xtream-library/internal/upstream/httpclient"
+	sharedhttp "github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/httpclient"
 )
 
 type Client struct {

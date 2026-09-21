@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
 )
 
 var alternateEPGQualitySuffix = regexp.MustCompile(`(?i)(?:\s|[-_.])+(?:uhd|4k|fhd|fullhd|hd|sd|hevc|h265|h264)$`)

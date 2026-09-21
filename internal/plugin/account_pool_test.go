@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
 )
 
 func TestAccountPoolLeasesLeastUsedCompatibleAccountWithinLimit(t *testing.T) {

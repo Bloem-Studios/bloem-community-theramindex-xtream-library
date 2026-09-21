@@ -3,8 +3,8 @@ package mapping
 import (
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 func TestMapXtreamChannelPreservesSourceOfTruthFields(t *testing.T) {

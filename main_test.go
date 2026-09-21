@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	configsdk "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	configsdk "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

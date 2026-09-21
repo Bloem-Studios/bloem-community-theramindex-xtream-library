@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
 )
 
 func TestProviderDescriptorUsesLiveTVIdentity(t *testing.T) {

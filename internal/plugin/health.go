@@ -1,8 +1,8 @@
 package plugin
 
 import (
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
 )
 
 type HealthPayload struct {

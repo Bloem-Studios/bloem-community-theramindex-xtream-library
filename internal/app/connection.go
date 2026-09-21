@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/matching"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/dispatcharr"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/m3u"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/matching"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/dispatcharr"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/m3u"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
 )
 
 func (s *Service) TestConnection(ctx context.Context, settings config.Settings) error {

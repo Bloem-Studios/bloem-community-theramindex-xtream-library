@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 

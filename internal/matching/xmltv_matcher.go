@@ -3,8 +3,8 @@ package matching
 import (
 	"strings"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/m3u"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/m3u"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
 )
 
 type Index struct {

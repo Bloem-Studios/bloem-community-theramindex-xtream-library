@@ -1,6 +1,6 @@
 package plugin
 
-import "github.com/theramindex/silo-plugin-xtream-library/internal/model"
+import "github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
 
 type Descriptor struct {
 	SourceID string

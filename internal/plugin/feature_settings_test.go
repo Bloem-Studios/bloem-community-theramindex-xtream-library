@@ -2,8 +2,8 @@ package plugin
 
 import (
 	"context"
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
 	"net/http"
 	"os/exec"
 	"path/filepath"

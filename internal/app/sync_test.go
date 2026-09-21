@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/dispatcharr"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xmltv"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/dispatcharr"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xmltv"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 func TestAlternateEPGMergePolicies(t *testing.T) {

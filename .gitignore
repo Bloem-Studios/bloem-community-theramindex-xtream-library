@@ -3,3 +3,4 @@ dist/
 .gocache/
 .DS_Store
 .tmp-*
+release/

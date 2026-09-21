@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/dispatcharr"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/dispatcharr"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 func TestServiceTestConnectionXtreamSuccess(t *testing.T) {

@@ -3,7 +3,7 @@ package plugin
 import (
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/cache"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/cache"
 )
 
 func TestCEBLTeamsUseOfficialLogosOnlyWithinTheirLeague(t *testing.T) {

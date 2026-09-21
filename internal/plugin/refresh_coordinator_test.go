@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
 )
 
 func TestRefreshCoordinatorCancelsObsoleteConfigAndSerializesJobs(t *testing.T) {

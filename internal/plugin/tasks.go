@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/app"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/config"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/app"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/config"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/structpb"

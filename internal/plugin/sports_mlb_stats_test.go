@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
 )
 
 const mlbCompetition = `{"date":"2026-09-08T01:10Z","competitors":[{"homeAway":"home","score":"6","hits":10,"errors":0,"team":{"id":"19","displayName":"Los Angeles Dodgers"},"linescores":[{"displayValue":"0"},{"displayValue":"6"}]},{"homeAway":"away","score":"3","hits":7,"errors":1,"team":{"id":"17","displayName":"Cincinnati Reds"},"linescores":[{"displayValue":"0"},{"displayValue":"0"},{"displayValue":"3"}]}],"status":{"type":{"state":"post","detail":"Final","completed":true}}}`

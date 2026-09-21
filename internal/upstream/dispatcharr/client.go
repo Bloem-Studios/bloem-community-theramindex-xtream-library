@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	sharedhttp "github.com/theramindex/silo-plugin-xtream-library/internal/upstream/httpclient"
+	sharedhttp "github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/httpclient"
 )
 
 const maxPaginationPages = 2000

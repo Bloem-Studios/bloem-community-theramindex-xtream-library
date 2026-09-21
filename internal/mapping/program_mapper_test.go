@@ -3,7 +3,7 @@ package mapping
 import (
 	"testing"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 func TestMapXtreamProgramProducesStableProgramModel(t *testing.T) {

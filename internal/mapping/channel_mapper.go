@@ -3,9 +3,9 @@ package mapping
 import (
 	"strconv"
 
-	"github.com/theramindex/silo-plugin-xtream-library/internal/model"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/m3u"
-	"github.com/theramindex/silo-plugin-xtream-library/internal/upstream/xtream"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/model"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/m3u"
+	"github.com/Bloem-Studios/bloem-community-theramindex-xtream-library/internal/upstream/xtream"
 )
 
 func MapXtreamChannel(stream xtream.LiveStream) model.Channel {
