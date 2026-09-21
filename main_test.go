@@ -265,7 +265,7 @@ func TestModuleIdentifiesXtremePluginRepository(t *testing.T) {
 	if err != nil {
 		t.Fatalf("read go.mod: %v", err)
 	}
-	if !strings.HasPrefix(string(contents), "module github.com/theramindex/silo-plugin-xtream-library\n") {
+	if !strings.HasPrefix(string(contents), "module github.com/Bloem-Studios/bloem-community-theramindex-xtream-library\n") {
 		t.Fatalf("expected Xtreme module identity, got %q", strings.SplitN(string(contents), "\n", 2)[0])
 	}
 }
